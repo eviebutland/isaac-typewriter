@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<h2>
+  <center>Our picturesque event venue is perfect for</center>
+</h2>
+<h2 class="sentence">
+  <div class="fadeInRotate">
+    <span id="fade-1">Weddings</span>
+    <span id="fade-2">Rehearsal Dinners</span>
+    <span id="fade-3">Parties</span>
+    <span id="fade-4">Corporate Events</span>
+    <!-- <span id="fade-5">Music Events</span>
+    <span id="fade-6">Quinceaneras</span>
+    <span id="fade-7">Bar/Bar Mitzvah's</span>
+    <span id="fade-8">Pop-up's</span> -->
+  </div>
+</h2>
+
+<style>
+  .sentence {
+    margin-top: -10px !important;
+    text-align: center;
+  }
+
+  .fadeInRotate {
+    display: flex;
+    text-align: center !important;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .fadeInRotate span {
+    animation: fadeEffect 25s linear infinite;
+    -ms-animation: fadeEffect 25s linear infinite;
+    -webkit-animation: fadeEffect 25s linear infinite;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .fadeInRotate span#fade-2 {
+    animation-delay: 7.5s;
+    -ms-animation-delay: 7.5s;
+    -webkit-animation-delay: 7.5s;
+  }
+  .fadeInRotate span#fade-3 {
+    animation-delay: 12.5s;
+    -ms-animation-delay: 12.5s;
+    -webkit-animation-delay: 12.5s;
+  }
+  .fadeInRotate span#fade-4 {
+    animation-delay: 17.5s;
+    -ms-animation-delay: 17.5s;
+    -webkit-animation-delay: 17.5s;
+  }
+  .fadeInRotate span#fade-5 {
+    animation-delay: 22.5s;
+    -ms-animation-delay: 22.5s;
+    -webkit-animation-delay: 22.5s;
+  }
+  .fadeInRotate span#fade-6 {
+    animation-delay: 27.5s;
+    -ms-animation-delay: 27.5s;
+    -webkit-animation-delay: 27.5s;
+  }
+  .fadeInRotate span#fade-7 {
+    animation-delay: 32.5s;
+    -ms-animation-delay: 32.5s;
+    -webkit-animation-delay: 32.5s;
+  }
+
+  /*FadeIn Animation*/
+  @-moz-keyframes fadeEffect {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0;
+      -moz-transform: translateY(0px);
+    }
+    10% {
+      opacity: 1;
+      -moz-transform: translateY(0px);
+    }
+    25% {
+      opacity: 1;
+      -moz-transform: translateY(0px);
+    }
+    30% {
+      opacity: 0;
+      -moz-transform: translateY(0px);
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes fadeEffect {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0;
+      -webkit-transform: translateY(0px);
+    }
+    10% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+    }
+    25% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+    }
+    30% {
+      opacity: 0;
+      -webkit-transform: translateY(0px);
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @-ms-keyframes fadeEffect {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0;
+      -ms-transform: translateY(0px);
+    }
+    10% {
+      opacity: 1;
+      -ms-transform: translateY(0px);
+    }
+    25% {
+      opacity: 1;
+      -ms-transform: translateY(0px);
+    }
+    30% {
+      opacity: 0;
+      -ms-transform: translateY(0px);
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+</style>
